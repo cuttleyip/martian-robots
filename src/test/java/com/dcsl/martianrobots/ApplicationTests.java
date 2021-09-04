@@ -8,6 +8,11 @@ import java.util.Scanner;
 
 import org.junit.jupiter.api.Test;
 
+import com.dcsl.martianrobots.command.Command;
+import com.dcsl.martianrobots.command.ForwardCommand;
+import com.dcsl.martianrobots.command.TurnLeftCommand;
+import com.dcsl.martianrobots.command.TurnRightCommand;
+
 class ApplicationTests {
 
 	@Test

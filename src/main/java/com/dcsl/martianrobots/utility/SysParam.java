@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.dcsl.martianrobots;
+package com.dcsl.martianrobots.utility;
 
 /**
  * @author Jason

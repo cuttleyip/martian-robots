@@ -1,7 +1,10 @@
 /**
  * 
  */
-package com.dcsl.martianrobots;
+package com.dcsl.martianrobots.command;
+
+import com.dcsl.martianrobots.Orientation;
+import com.dcsl.martianrobots.Robot;
 
 /**
  * @author Jason

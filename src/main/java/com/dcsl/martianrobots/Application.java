@@ -12,6 +12,11 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
+import com.dcsl.martianrobots.command.ForwardCommand;
+import com.dcsl.martianrobots.command.TurnLeftCommand;
+import com.dcsl.martianrobots.command.TurnRightCommand;
+import com.dcsl.martianrobots.utility.InputValidator;
+
 /**
  * @author Jason
  *
@@ -23,7 +28,7 @@ public class Application {
 	private Scanner input;
 	private String output;
 
-	Application(Scanner input) {
+	public Application(Scanner input) {
 		mars = null;
 		scents = new HashSet<Scent>();
 		this.input = input;

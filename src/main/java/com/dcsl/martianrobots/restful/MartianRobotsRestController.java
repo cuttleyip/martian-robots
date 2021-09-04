@@ -1,4 +1,4 @@
-package com.dcsl.martianrobots;
+package com.dcsl.martianrobots.restful;
 
 import java.util.Scanner;
 
@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.dcsl.martianrobots.Application;
 
 @RestController
 public class MartianRobotsRestController {
