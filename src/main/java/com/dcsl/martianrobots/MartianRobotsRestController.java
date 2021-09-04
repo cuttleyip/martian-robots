@@ -13,7 +13,7 @@ public class MartianRobotsRestController {
 
 	@RequestMapping(
 		    value = "/run", 
-		    method = RequestMethod.GET,
+		    method = RequestMethod.POST,
 		    consumes = MediaType.TEXT_PLAIN_VALUE)
 	String run(@RequestBody String payload) {
 		String output = null;
