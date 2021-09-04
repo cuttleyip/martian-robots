@@ -63,4 +63,5 @@ To deploy this project as a Stand-Alone Java Application, run
   ./mvnw package && java -jar target/martian-robots.jar
 ```
 
-  
+  # Screenshots
+[Please refer to the Screenshots folder](https://github.com/cuttleyip/martian-robots/tree/master/Screenshots)
